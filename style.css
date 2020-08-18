@@ -1,0 +1,140 @@
+body{
+    margin: auto 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav {
+    background-color: blueviolet;
+    
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-nav{
+      font-size:15px;
+      padding: 0px;
+  }
+}
+
+.main-contact{
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* banner section */
+
+.cover{
+    background-image: linear-gradient(to right bottom, rgba(163, 26, 117, 0.815),rgba(51, 40, 147, 0.801)), url('./images/coder.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+
+.main-article{
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: lavender;
+}
+
+.font-article{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button {
+    height: 40px;
+    color: lavenderblush;
+    font-size: 20px;
+    box-shadow: 5px;
+     background-color: blueviolet;
+     border:none;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: indigo;
+    
+}
+
+.img_size {
+    width: 200px;
+    height: 400px;
+}
+
+.grid-wrapper{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid indigo;
+}
+
+/* GRID */
+.gap-img {
+    margin: 20px;
+}
+.gap-img, p {
+   text-align: center;
+   color: blueviolet;
+   font-size: 20px;
+}
+
+.gap_p{
+    margin: 5px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.section-color {
+    margin-top: 50px;
+    background-color:indigo;
+
+}
+
+.footer{
+    background-color: blueviolet;
+    text-align: center;
+    color: chartreuse;
+    height: 50px;
+}
